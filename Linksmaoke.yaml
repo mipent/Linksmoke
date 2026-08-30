@@ -10,6 +10,8 @@ blueprint:
   input:
     smoke_detectors:
       name: Smoke detector
+      description: The smoke detectors you want to link.
+      selector:
         device:
           filter:
           - manufacturer: "LUMI"
