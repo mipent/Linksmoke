@@ -13,10 +13,11 @@ blueprint:
       description: The smoke detectors you want to link.
       selector:
         device:
+          integration: zha
           filter:
           - manufacturer: "LUMI"
             model: lumi.sensor_smoke.acn03
-          multiple: true
+            multiple: true
     notify_device:
       name: Devices to notify
       description: Devices to be notified via the mobile app
