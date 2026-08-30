@@ -7,11 +7,11 @@ blueprint:
       name: Aqara switch
       description: Aqara switch to use
       selector:
-        entity:
-          domain:
-          - sensor
+        device:
           integration: zha
-          multiple: false
+          manufacturer: LUMI
+          model: lumi.remote.b28ac1
+          multiple: true
     single_left:
       name: Left button - Single press
       description: Action to run on a single press of the left button
