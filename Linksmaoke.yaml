@@ -11,9 +11,10 @@ blueprint:
     smoke_detectors:
       name: Smoke detector
         device:
-          manufacturer: "LUMI"
-          model: lumi.sensor_smoke.acn03
-          multiple: true
+          filter:
+          - manufacturer: "LUMI"
+            model: lumi.sensor_smoke.acn03
+            multiple: true
     notify_device:
       name: Devices to notify
       description: Devices to be notified via the mobile app
