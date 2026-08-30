@@ -1,5 +1,5 @@
 blueprint:
-  name: Z2M - Aqara H1(WRS-R02) - Wireless remote switch(double rocker)
+  name: ZHA - Aqara H1(WRS-R02) - Wireless remote switch(double rocker)
   description: Scene & device control using Aqara two button remote
   domain: automation
   input:
@@ -78,7 +78,7 @@ blueprint:
       default: []
       selector:
         action: {}
-  source_url: https://community.home-assistant.io/t/z2m-aqara-h1-wrs-r02-wireless-remote-switch-double-rocker-updated-single-double-single-double-hold/455665
+  source_url: https://raw.githubusercontent.com/mipent/Linksmoke/refs/heads/main/zha-aqara-h1-wrs-r02-wireless-remote-switch-double.yaml
 mode: restart
 max_exceeded: silent
 trigger:
