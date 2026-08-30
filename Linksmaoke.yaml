@@ -5,7 +5,7 @@ blueprint:
     Assistant now has to take care of that job. Select the smoke detectors you want
     to link. Also mutes all the smoke detectors when one is muted. Optional actions
     can be selected to be executed when the alarm is raised or muted.
-  source_url: https://raw.githubusercontent.com/vansummeren/HA_blueprints/main/aqara-smoke-detectors/aqara-smoke-detectors-beta.yaml
+  source_url: https://raw.githubusercontent.com/mipent/Linksmoke/refs/heads/main/Linksmaoke.yaml
   domain: automation
   input:
     smoke_detectors:
