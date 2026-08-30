@@ -1,6 +1,6 @@
 blueprint:
   name: Link Aqara smoke detectors and execute action
-  description: Aqattra smoke detecotrs have the \"ability\" to alarm each other once
+  description: Aqatra smoke detecotrs have the \"ability\" to alarm each other once
     one has detected fire. Since this linkage as achieved through the aqara hub, Home
     Assistant now has to take care of that job. Select the smoke detectors you want
     to link. Also mutes all the smoke detectors when one is muted. Optional actions
