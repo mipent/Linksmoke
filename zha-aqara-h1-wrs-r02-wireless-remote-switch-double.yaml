@@ -10,7 +10,7 @@ blueprint:
         entity:
           domain:
           - sensor
-          integration:zha
+          integration: zha
           multiple: false
     single_left:
       name: Left button - Single press
