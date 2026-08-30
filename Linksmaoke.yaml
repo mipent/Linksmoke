@@ -9,12 +9,7 @@ blueprint:
   domain: automation
   input:
     smoke_detectors:
-      name: Smoke detectors
-      description: The smoke detectors you want to link.
-      selector:
-        device:
-          filter:
-          - integration: zha
+      name: Smoke detector
             manufacturer: "lumi"
             model: lumi.sensor_smoke.acn03
           multiple: true
